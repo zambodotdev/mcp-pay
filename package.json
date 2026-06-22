@@ -1,0 +1,60 @@
+{
+  "name": "mcp-pay",
+  "version": "1.0.0",
+  "description": "x402 micropayment billing for MCP tools. One wrapper, any tool charges USDC per call. No Stripe. No signups. Agent-native.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "module": "dist/index.mjs",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "node --experimental-vm-modules dist/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "x402",
+    "micropayments",
+    "usdc",
+    "base",
+    "base-mainnet",
+    "ai-payments",
+    "agent-payments",
+    "mcp-tools",
+    "mcp-billing",
+    "llm-payments",
+    "on-chain",
+    "web3",
+    "crypto-payments",
+    "anthropic",
+    "claude",
+    "cursor",
+    "windsurf",
+    "mcp-server"
+  ],
+  "author": "Brennan Zambo <brennanzambo@zambo.dev> (https://zambo.dev)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zambodotdev/mcp-pay.git"
+  },
+  "homepage": "https://zambo.dev/opensource",
+  "bugs": {
+    "url": "https://github.com/zambodotdev/mcp-pay/issues"
+  },
+  "files": ["dist", "README.md", "LICENSE"],
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
