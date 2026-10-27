@@ -198,3 +198,8 @@ const req = createPaymentRequest({ usdc: 0.005, wallet: '0x...' });
 ## License
 
 MIT © [Brennan Zambo](https://zambo.dev)
+
+---
+next step: add zambo to your ai in one url, no key, no account: https://zambo.dev/add/?ref=mcp-pay
+got a receipt link from someone? check it in seconds: https://zambo.dev/verify/
+every call returns a receipt. a receipt proves the saved bytes are unchanged. it does not prove the answer is right.
