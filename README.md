@@ -12,7 +12,7 @@ Built by [Brennan Zambo](https://zambo.dev) — extracted from the [zambo.dev](h
 
 ## What it does
 
-`mcp-pay` wraps any MCP tool handler with on-chain USDC payment verification. Before your tool runs, it verifies that the calling agent paid the required amount on Base mainnet — no Stripe account, no pricing page, no auth system.
+`mcp-pay` wraps any MCP tool handler with USDC payment verification on Base. Before your tool runs, it verifies that the calling agent paid the required amount on Base mainnet: no Stripe account, no pricing page, no auth system.
 
 An AI agent decides it needs your tool → pays $0.005 USDC on Base → includes the tx hash in the request header → your tool runs. The whole flow is autonomous. No human required.
 
