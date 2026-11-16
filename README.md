@@ -6,7 +6,7 @@
 [![license](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![zero dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](package.json)
 
-Built by [Brennan Zambo](https://zambo.dev) — extracted from the [zambo.dev](https://zambo.dev) production MCP server running 28 tools with live x402 billing.
+Built by [Brennan Zambo](https://zambo.dev) — extracted from the [zambo.dev](https://zambo.dev) production MCP server: 153 tools, 37 on the default surface, with live x402 billing.
 
 ---
 
